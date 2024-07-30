@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio_app/ChatScreen.dart';
+import 'package:portfolio_app/HomeScreen.dart';
+import 'package:portfolio_app/screens/chat/ChatScreen.dart';
 import 'colors.dart';
 
 void main() {
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return  GetMaterialApp(
       title: "Portfolio",
       theme: ThemeData(
           scaffoldBackgroundColor: WebColor.primaryColor,
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
           )
       ),
       debugShowCheckedModeBanner: false,
-      home: ChatScreen(),
+      home: HomeScreen(),
     );
   }
 }

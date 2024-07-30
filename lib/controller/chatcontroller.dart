@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio_app/chat.dart';
+import 'package:portfolio_app/screens/chat/chat.dart';
 
 class ChatController extends GetxController {
   var messages = <ChatMessage>[].obs;

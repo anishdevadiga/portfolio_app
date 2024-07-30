@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio_app/chat.dart';
-import 'package:portfolio_app/chatwidget.dart';
+import 'package:portfolio_app/screens/chat/chat.dart';
+import 'package:portfolio_app/screens/chat/chatwidget.dart';
 import 'package:portfolio_app/controller/chatcontroller.dart';
 
 class ChatScreen extends StatelessWidget {
